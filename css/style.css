@@ -1,0 +1,59 @@
+@import "reset.css";
+.hidden{
+    display: none;
+}
+.body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#background{
+    top: auto;
+    height: 100vh;
+    width: 100vw;
+    background: no-repeat center;
+    background-size: cover;
+    position: absolute;
+}
+#clock{
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#greeting{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
